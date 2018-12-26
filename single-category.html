@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grand Chinese Restaurant</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<body>
+
+
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<!---------------LOGO-------------->
+
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="logo image"></div>
+					</a>
+
+
+					<!----------Brand name or title---------->
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Grand Chinese Restaurant</h1></a>
+						
+
+					<!-----(Subtitle of the website) Star-k and the words "Kosher certified" ------->
+
+						<p>
+							<img src="../images/star-k-logo.png" alt="Kosher Cetification">
+							<span>Kosher Certified</span>
+						</p>
+					</div>
+
+
+
+				<!--TO MAKE IT COLLAPSABLE IN MOBILE BROWSER-->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+
+				<!--collapsable menu items (Menu) (About) (Awards) (Phone number)-->
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+					
+
+						<li>
+							<a href="menu-categories.html">
+
+								<!--cutlery icon-->
+								<span class="glyphicon glyphicon-cutlery"></span>
+								<!--/cutlery icon-->
+
+								<br class="hidden-xs">
+								Menu
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+                				<!-- info icon -->
+
+                				<span class="glyphicon glyphicon-info-sign"></span>
+
+                				<br class="hidden-xs"> 
+                			About</a>
+								
+						</li>
+
+						<li>
+							
+							<a href="#">
+			                <!--certi icon for awards item-->
+			                <span class="glyphicon glyphicon-certificate"></span>
+
+			                <br class="hidden-xs"> Awards</a>
+									</li>
+						<li id="phone" class="hidden-xs">
+
+              				<a href="tel:079 270 0000">
+
+                				<span>079 270 0000</span>
+                			</a>
+                			<div>* We Deliver</div>
+            			</li>
+          			</ul><!-- #nav-list -->
+        		</div><!-- .collapse .navbar-collapse -->
+      		</div><!-- .container -->
+    	</nav><!-- #header-nav -->
+  	</header>
+	
+
+	<div id="call-btn" class="visible-xs">
+    	<a class="btn" href="tel:410-602-5008">
+    	<span class="glyphicon glyphicon-earphone"></span>
+  		079 270 0000
+    	</a>
+  	</div>
+  	<div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  	<div id="main-content" class="container">
+    <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+    <div class="text-center">Lunch is not served until after 1pm.</div>
+
+    <section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D01</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">&#8377;109<span> (pint)</span> &#8377;149 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D02</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">&#8377;109<span> (pint)</span> &#8377;149 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D03</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">&#8377;109<span> (pint)</span> &#8377;149 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D04</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">&#8377;109<span> (pint)</span> &#8377;149 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D05</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">&#8377;109<span> (pint)</span> &#8377;149 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D06</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+    </section>
+
+  </div><!-- End of #main-content -->
+
+
+	
+	<footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          15, Some Society<br>
+          Chandlodia, A'bad 382 481
+          <p>* Delivery area within 3-4 kms, with minimum order of 500 &#8377; plus 40&#8377; charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"સ્વાદિષ્ટ ચાઈનીઝ ભોજન, તમારા ઘેર પાસે"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Grand Chinese Restaurant, 2018</div>
+      <div class="text-center">&star; Developed by Smit Gajjar</div>
+    </div>
+  </footer>
+
+
+	<!--JQuery (Bootstrap plugins)-->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="js/script.js"></script>
+
+</body>
+</html>
